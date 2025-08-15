@@ -14,7 +14,7 @@ This repo contains two key parts:
    - Implements a basic instruction set and control path logic.
    - Focused on gaining deep understanding of datapath and control signals.
 
-2. **Pipelined RISC-V Processor (Reference & Learning)**  
+2. **Pipelined RISC-V Processor (Reference & Learning(TODO))**  
    - Based on open-source resources (link provided below).
    - Currently under study to gradually re-implement and modify on my own.
    - Used for exploring performance improvement concepts: IF, ID, EX, MEM, WB stages.
@@ -29,11 +29,3 @@ This repo contains two key parts:
 
 ---
 
-## 📂 Repo Structure
-
-```bash
-.
-├── single_cycle/         # My own Verilog implementation (working)
-├── pipelined_reference/  # External reference (to be reworked in future)
-├── vivado_project/       # Vivado project files and synthesis reports
-└── README.md             # This file
